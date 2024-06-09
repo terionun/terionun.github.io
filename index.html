@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <script src="https://kit.fontawesome.com/0c40da5340.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.halo.min.js"></script>
+    <title>Mustafa</title>
+    <style>
+        @media only screen and (max-width:900px){
+    ul li{
+        width: 200px;
+        
+    }
+    
+    ul{
+        position: relative;
+        right: 90px;
+        bottom: 20px;
+        
+        
+    }
+}
+
+    
+    
+body,html{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    overflow: hidden;
+    
+}
+
+#vanta{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    
+}
+header{
+    margin-top: 2em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header img{
+    width: 12em;
+    height: 12em;
+    border-radius: 100%;
+    border: 1px solid red;
+    box-shadow: red 5px 3px 30px 2px;
+}
+header h1{
+    display: inline-block;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 1em;
+    background-color: black;
+    padding: 8px;
+    color: white;
+    letter-spacing: 2px;
+}
+ul{
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 2em;
+    width: 30%;
+    
+    
+}
+ul li {
+    background-color: #fffa;
+    border-radius: 10em;
+    padding: 1em;
+    margin-top: 1em;
+    list-style: none;
+    text-align: center;
+}
+ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+}
+    </style>
+</head>
+<body>
+<div id="vanta">
+    <main>
+    <header>
+        <img src="https://raw.githubusercontent.com/terionun/terionun.github.io/main/my.jpg" alt="myjpg">
+        <h1>@Mustafa</h1>
+    </header>
+    <ul>
+        <li>
+            <a href="https://www.instagram.com/mstfaktrc29">
+                <i class="fa-brands fa-instagram"></i> İnstagram</a>
+        </li>
+        <li>
+            <a href="https://www.youtube.com/@terionun">
+                <i class="fa-brands fa-youtube"></i> Youtube</a>
+        </li>
+        <li>
+            <a href="https://github.com/terionun">
+                <i class="fa-brands fa-github"></i> Github</a>
+        </li>
+        <li>
+            <a href="https://www.linkedin.com/in/mustafa-katırcı-09442221b/">
+                <i class="fa-brands fa-linkedin"></i> Linkedin</a>
+        </li>
+    </ul>
+    
+    </main>
+    <script>
+        VANTA.HALO({
+          el: "#vanta",
+          mouseControls: true,
+          touchControls: true,
+          gyroControls: false,
+          minHeight: 200.00,
+          minWidth: 200.00
+        })
+        </script>
+</div>
+
+    
+</body>
+</html>
